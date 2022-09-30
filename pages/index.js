@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,10 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-// import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoLinkedin, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -36,6 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
+        id="ello"
       >
         Hello, I&apos;m a CompSci Student completing my degree at UOW!
       </Box>
@@ -45,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacob Cooper
           </Heading>
-          <p>Digital Craftsman ( Student / Developer / Designer )</p>
+          <p>Digital Crafts-person ( Engineer / Dev / Design )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -83,8 +80,8 @@ const Home = () => (
           computer science bachelor majoring in cybersecurity and software
           engineering. He enjoys learning the curriculum as well as building 
           services he wants. He enjoys planning and implementing cloud based 
-          systems, recently interested in domain driven development of micro-
-          services. When not online, he enjoys spending time with his young 
+          systems, recently interested in domain driven development of micro-services. 
+          When not online, he enjoys spending time with his young 
           family and getting out into nature.
         </Paragraph>
         <Box align="center" my={4}>
@@ -101,8 +98,8 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1992</BioYear>
-          Born in Penrith, Australia.
+          <BioYear>199?</BioYear>
+          Born in Australia.
         </BioSection>
         <BioSection>
           <BioYear>2000</BioYear>
@@ -129,7 +126,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          👍 Likes
         </Heading>
         <Paragraph>
         SEED labs, {' '}
@@ -157,56 +154,17 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://www.linkedin.com/in/cooper-jacob" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @inkdrop_app (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
+                @me
               </Button>
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            // thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
