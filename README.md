@@ -45,3 +45,13 @@ Check out [LICENSE](./LICENSE) for more detail.
 Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
 [![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+
+---
+
+# CC Attribution
+
+[Berk Getdic](https://sketchfab.com/berkgedik)
+
+[Cyberpunk](https://sketchfab.com/3d-models/cyberpunk-laptop-concept-design-fddc4e68cc6c498b88b19af1a05bd420)
+
+**no modifications done**
