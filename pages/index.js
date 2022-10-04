@@ -78,10 +78,18 @@ const Home = () => (
         <Paragraph>
           Jacob is a full time student at Wollongong University undertaking a
           computer science bachelor majoring in cybersecurity and software
-          engineering. He enjoys learning the curriculum as well as building 
-          services he wants. He enjoys planning and implementing cloud based 
-          systems, recently interested in domain driven development of micro-services. 
-          When not online, he enjoys spending time with his young 
+          engineering. He enjoys learning the curriculum as well as home labbing.
+          He enjoys planning and implementing cloud based systems, and currently holds
+          a {' '}
+          <Link href="https://www.credly.com/badges/1cd6353a-7ab7-4bbd-9fb6-b809f942f26b/public_url" target="_blank">
+          CCP 
+          </Link>
+           {' and '}
+          <Link href="https://www.credly.com/badges/b5bd7698-2be9-48cb-bea3-d2b50879dbec/public_url" target="_blank">
+            SSA
+          </Link>
+          {' '} from AWS. Recently interested in domain driven development
+          of micro-services. When not online, he enjoys spending time with his young
           family and getting out into nature.
         </Paragraph>
         <Box align="center" my={4}>
@@ -109,7 +117,7 @@ const Home = () => (
           <BioYear>2011</BioYear>
           Highschool back in Australia.
         </BioSection>
-         <BioSection>
+        <BioSection>
           <BioYear>2013</BioYear>
           Joined the Australian Defence Force!
         </BioSection>
@@ -129,7 +137,7 @@ const Home = () => (
           👍 Likes
         </Heading>
         <Paragraph>
-        SEED labs, {' '}
+          SEED labs, {' '}
           <Link href="/works/ksm" target="_blank">
             DApps
           </Link>
