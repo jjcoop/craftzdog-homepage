@@ -3,6 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { LinkedGridItem } from '../components/grid-item'
 import thumbMercu from '../public/images/works/mercu_01.png'
+import thumbKali from '../public/images/posts/nmap/kali.png'
 
 
 const Posts = () => (
@@ -15,7 +16,8 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <LinkedGridItem link="posts" id="acl" title="Anti-corruption Layer in Java Spring Boot" thumbnail={thumbMercu} />          
-        </SimpleGrid>
+        <LinkedGridItem link="posts" id="nmap" title="Nmap vuln scan and metasploit" thumbnail={thumbKali} />          
+        </SimpleGrid>    
       </Section>
     </Container>
   </Layout>

@@ -26,10 +26,13 @@ export const LinkedGridItem = ({ children, id, link, title, thumbnail }) => (
     <NextLink href={`/${link}/${id}`} passHref scroll={false}>
       <LinkBox cursor="pointer">
         <Image
+          layout="fixed"
           src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"
           placeholder="blur"
+          width={222}
+          height={150}
         />
         <LinkOverlay href={`/${link}/${id}`}>
           <Text mt={2} fontSize={20}>

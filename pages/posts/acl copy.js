@@ -16,18 +16,19 @@ const Work = () => (
   <Layout title="Anti-corruption Layer">
     <Container>
       <Title>
-        ACL <Badge>2022</Badge>
+        ACL <Badge>2021-2022</Badge>
       </Title>
       <P>
-        The anti-corruption layer is a method used to integrate legacy API. Similar to a facade,
-        the ACL acts like a template that does not contain business logic and allows for a 
-        distributed shared context. 
+        Fill out the body of the text here.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>References</Meta>
           <List ml={4} my={4}>
             <ListItem>
+              <Text>this is some txt</Text>
+              <Text>this is some txt</Text>
+              <Text>this is some txt</Text>
               <Link href="https://github.com/jjcoop/mercu">
                 https://github.com/jjcoop/mercu <ExternalLinkIcon mx="2px" />
               </Link>
