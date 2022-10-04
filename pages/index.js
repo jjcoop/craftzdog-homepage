@@ -130,7 +130,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
         SEED labs, {' '}
-          <Link href="/ksm" target="_blank">
+          <Link href="/works/ksm" target="_blank">
             DApps
           </Link>
           , Nextjs, IaaS, cybersecurity, skateboarding
