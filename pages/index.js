@@ -86,7 +86,7 @@ const Home = () => (
           </Link>
            {' and '}
           <Link href="https://www.credly.com/badges/b5bd7698-2be9-48cb-bea3-d2b50879dbec/public_url" target="_blank">
-            SSA
+            SAA
           </Link>
           {' '} from AWS. Recently interested in domain driven development
           of micro-services. When not online, he enjoys spending time with his young
