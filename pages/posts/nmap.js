@@ -26,22 +26,22 @@ const Work = () => (
           <List ml={4} my={4}>
             <ListItem>
               <ListItem>
-              <Link href="https://www.kali.org/get-kali/#kali-installer-images/" target='_blank'>
+              <Link href="https://www.kali.org/get-kali/#kali-installer-images/" target='_blank' rel='noopener noreferrer'>
                 Kali <ExternalLinkIcon mx="2px" />
               </Link>
               </ListItem>
               <ListItem>   
-              <Link href="https://docs.rapid7.com/metasploit/metasploitable-2/" target='_blank'>
+              <Link href="https://docs.rapid7.com/metasploit/metasploitable-2/" target='_blank' rel='noopener noreferrer'>
                 Metasploitable2 <ExternalLinkIcon mx="2px" />
               </Link>
               </ListItem>
               <ListItem>
-              <Link href="https://securitytrails.com/blog/nmap-commands" target='_blank'>
+              <Link href="https://securitytrails.com/blog/nmap-commands" target='_blank' rel='noopener noreferrer'>
                 nmap commands <ExternalLinkIcon mx="2px" />
               </Link>
               </ListItem>
               <ListItem>
-              <Link href="https://www.kali.org/tools/netdiscover/" target='_blank'>
+              <Link href="https://www.kali.org/tools/netdiscover/" target='_blank' rel='noopener noreferrer'>
                 ARP reconnaissance tool <ExternalLinkIcon mx="2px" />
               </Link>
               </ListItem>

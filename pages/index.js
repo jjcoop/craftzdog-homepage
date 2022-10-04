@@ -81,11 +81,11 @@ const Home = () => (
           engineering. He enjoys learning the curriculum as well as home labbing.
           He enjoys planning and implementing cloud based systems, and currently holds
           a {' '}
-          <Link href="https://www.credly.com/badges/1cd6353a-7ab7-4bbd-9fb6-b809f942f26b/public_url" target="_blank">
+          <Link href="https://www.credly.com/badges/1cd6353a-7ab7-4bbd-9fb6-b809f942f26b/public_url" target="_blank" rel='noopener noreferrer'>
           CCP 
           </Link>
            {' and '}
-          <Link href="https://www.credly.com/badges/b5bd7698-2be9-48cb-bea3-d2b50879dbec/public_url" target="_blank">
+          <Link href="https://www.credly.com/badges/b5bd7698-2be9-48cb-bea3-d2b50879dbec/public_url" target="_blank" rel='noopener noreferrer'>
             SAA
           </Link>
           {' '} from AWS. Recently interested in domain driven development
@@ -138,7 +138,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           SEED labs, {' '}
-          <Link href="/works/ksm" target="_blank">
+          <Link href="/works/ksm" target="_blank" rel='noopener noreferrer'>
             DApps
           </Link>
           , Nextjs, IaaS, cybersecurity, skateboarding
@@ -151,7 +151,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/jjcoop" target="_blank">
+            <Link href="https://github.com/jjcoop" target="_blank" rel='noopener noreferrer'>
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -162,7 +162,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/cooper-jacob" target="_blank">
+            <Link href="https://www.linkedin.com/in/cooper-jacob" target="_blank" rel='noopener noreferrer'>
               <Button
                 variant="ghost"
                 colorScheme="teal"
