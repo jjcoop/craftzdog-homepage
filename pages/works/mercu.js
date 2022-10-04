@@ -17,7 +17,9 @@ const Work = () => (
         Mercury Cycles <Badge>2021-2022</Badge>
       </Title>
       <P>
-        A project for CSCI318 Software Engineering Principles and Practices. 
+        A small group project for CSCI318 Software Engineering Principles and Practices.
+        Creating N-tier micro-services in application built on the Java Spring Boot framework using the 
+        domain driven design methodology. 
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -33,6 +35,10 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>Next.js, Spring Boot, JPA</span>
+        </ListItem>
+        <ListItem>
+          <Meta>My Contribution</Meta>
+          <span>front-end design with MUI, back-end for procurement and inventory, and 70% of the sales micro-services.</span>
         </ListItem>
       </List>
 

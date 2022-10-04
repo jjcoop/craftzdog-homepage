@@ -42,6 +42,10 @@ const Work = () => (
             expert stall demo <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+        <ListItem>
+          <Meta>My Contribution</Meta>
+          <span>full-stack; infrastructure architecture, solidity code, hardhat local env, live deployments, smart contract tests, some web-dev</span>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/ksm_01.png" alt="ksm" />
